@@ -1,0 +1,32 @@
+{
+  "name": "i18n-l10n-flags",
+  "version": "1.0.0",
+  "description": "A simple TS constant to allow pairing languages and regional variants with country flags.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist", "LICENSE", "README.md", "package.json"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheGameKnave/i18n-l10n-flags.git"
+  },
+  "keywords": [
+    "i18n",
+    "l10n",
+    "internationalization",
+    "localization",
+    "translate"
+  ],
+  "author": "GameKnave Design",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheGameKnave/i18n-l10n-flags/issues"
+  },
+  "homepage": "https://github.com/TheGameKnave/i18n-l10n-flags#readme",
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  }
+}
