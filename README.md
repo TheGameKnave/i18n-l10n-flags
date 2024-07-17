@@ -6,7 +6,25 @@ A simple JS constant to allow pairing languages and regional variants with count
 
 `npm i i18n-l10n-flags`
 
-In your component
+In your component, import `LANGUAGES` and get to work.
+
+### Model
+
+```
+interface Language {
+    [key: string]: {
+        name: string;
+        nativeName: string;
+        regions: Region[];
+    };
+}
+interface Region {
+    region: string;
+    locale: string;
+    nativeName: string;
+    flag: string;
+}
+```
 
 ## Problems
 
