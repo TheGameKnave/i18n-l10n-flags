@@ -10,6 +10,25 @@ In your component, import `LANGUAGES` and get to work.
 
 ### Model
 
+#### v.2.0.0
+```
+interface Language {
+  [key: string]: {
+    name: string;
+    nativeName: string;
+    locales: {
+      [key: string]: Locale;
+    };
+  };
+}
+interface Locale {
+  locale: string;
+  nativeName: string;
+  flag: string;
+}
+```
+
+#### v.1.0.0
 ```
 interface Language {
     [key: string]: {
